@@ -1,0 +1,48 @@
+{
+  "agent": {
+    "name": "hermes_assistant",
+    "version": "0.1.0"
+  },
+  "mode": "api",
+  "models": {
+    "vision": "google/gemini-flash-1.5",
+    "reasoning": "qwen/qwen-vl-max",
+    "summarization": "mistralai/mistral-7b-instruct",
+    "local_vision": "llava",
+    "local_reasoning": "mistral"
+  },
+  "api": {
+    "openrouter_key": "",
+    "openrouter_base_url": "https://openrouter.ai/api/v1",
+    "ollama_base_url": "http://localhost:11434"
+  },
+  "perception": {
+    "screen_delta_threshold": 0.05,
+    "screen_capture_interval_seconds": 3,
+    "camera_heartbeat_seconds": 30,
+    "gaze_trigger_enabled": true
+  },
+  "intervention": {
+    "error_visible_seconds": 120,
+    "stuck_on_task_minutes": 15,
+    "consecutive_negative_emotions": 3,
+    "destructive_action_immediate": true,
+    "gaze_trigger_immediate": true,
+    "confidence_threshold": 0.72
+  },
+  "memory": {
+    "max_index_entries": 500,
+    "session_summary_on_exit": true,
+    "state_log_days": 7
+  },
+  "ui": {
+    "avatar_position": {"x": 1800, "y": 950},
+    "chat_position": {"x": 1550, "y": 700},
+    "always_on_top": true,
+    "minimize_when_away": true
+  },
+  "learning": {
+    "exploration_phase_days": 5,
+    "current_phase": "exploration"
+  }
+}
