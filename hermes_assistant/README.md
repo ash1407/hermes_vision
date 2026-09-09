@@ -291,3 +291,11 @@ https://github.com/ash1407/hermes_vision/blob/main/plan/hermes_assistant_plan.md
 - [OpenCV](https://opencv.org) — webcam capture
 - [mss](https://github.com/BoboTiG/python-mss) — screen capture
 - [duckduckgo-search](https://github.com/deedy5/duckduckgo_search) — web search
+
+## How to run 
+
+Command to start Hermes Assistant (local/Ollama mode):
+
+cd C:\Users\ashis\hermes_vision\hermes_assistant
+& venv\Scripts\Activate.ps1
+python hermes_assistant.py
