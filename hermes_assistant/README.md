@@ -297,5 +297,5 @@ https://github.com/ash1407/hermes_vision/blob/main/plan/hermes_assistant_plan.md
 Command to start Hermes Assistant (local/Ollama mode):
 
 cd C:\Users\ashis\hermes_vision\hermes_assistant
-& venv\Scripts\Activate.ps1
+& venv\Scripts\activate.bat
 python hermes_assistant.py
